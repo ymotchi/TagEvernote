@@ -1,0 +1,8 @@
+[debug] Other repositories:
+[debug] Default repositories:
+[debug] 	Raw(ProjectResolver(inter-project, mapped: ))
+[debug] 	FileRepository(local,FileConfiguration(true,None),sbt.Patterns@10403fce)
+[debug] 	snapshots: http://oss.sonatype.org/content/repositories/snapshots
+[debug] 	releases: http://oss.sonatype.org/content/repositories/releases
+[debug] 	public: http://repo1.maven.org/maven2/
+[debug] Using inline dependencies specified in Scala.
