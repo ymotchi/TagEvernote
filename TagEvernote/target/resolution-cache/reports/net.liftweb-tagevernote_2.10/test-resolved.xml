@@ -7,10 +7,10 @@
 		revision="0.0.1"
 		conf="test"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, container"
-		date="20130202020605"/>
+		date="20130202021424"/>
 	<dependencies>
 		<module organisation="org.eclipse.jetty" name="jetty-webapp">
-			<revision name="8.1.7.v20120910" status="release" pubdate="20120911041310" resolver="public" artresolver="public" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="31">
+			<revision name="8.1.7.v20120910" status="release" pubdate="20120911041310" resolver="public" artresolver="public" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="32">
 				<metadata-artifact status="no" details="" size="8588" time="0" location="C:\Users\yuki\.ivy2\cache\org.eclipse.jetty\jetty-webapp\ivy-8.1.7.v20120910.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-webapp/8.1.7.v20120910/jetty-webapp-8.1.7.v20120910.pom"/>
 				<caller organisation="net.liftweb" name="tagevernote_2.10" conf="test, compile, runtime" rev="8.1.7.v20120910" rev-constraint-default="8.1.7.v20120910" rev-constraint-dynamic="8.1.7.v20120910" callerrev="0.0.1"/>
 				<artifacts>
@@ -21,7 +21,7 @@
 			</revision>
 		</module>
 		<module organisation="org.eclipse.jetty" name="jetty-servlet">
-			<revision name="8.1.7.v20120910" status="release" pubdate="20120911040853" resolver="public" artresolver="public" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="34">
+			<revision name="8.1.7.v20120910" status="release" pubdate="20120911040853" resolver="public" artresolver="public" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="35">
 				<metadata-artifact status="no" details="" size="8416" time="0" location="C:\Users\yuki\.ivy2\cache\org.eclipse.jetty\jetty-servlet\ivy-8.1.7.v20120910.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-servlet/8.1.7.v20120910/jetty-servlet-8.1.7.v20120910.pom"/>
 				<caller organisation="org.eclipse.jetty" name="jetty-webapp" conf="default, compile, runtime, master" rev="8.1.7.v20120910" rev-constraint-default="8.1.7.v20120910" rev-constraint-dynamic="8.1.7.v20120910" callerrev="8.1.7.v20120910"/>
 				<artifacts>
@@ -32,7 +32,7 @@
 			</revision>
 		</module>
 		<module organisation="org.eclipse.jetty" name="jetty-security">
-			<revision name="8.1.7.v20120910" status="release" pubdate="20120911040833" resolver="public" artresolver="public" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="35">
+			<revision name="8.1.7.v20120910" status="release" pubdate="20120911040833" resolver="public" artresolver="public" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="36">
 				<metadata-artifact status="no" details="" size="8312" time="0" location="C:\Users\yuki\.ivy2\cache\org.eclipse.jetty\jetty-security\ivy-8.1.7.v20120910.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-security/8.1.7.v20120910/jetty-security-8.1.7.v20120910.pom"/>
 				<caller organisation="org.eclipse.jetty" name="jetty-servlet" conf="compile, runtime" rev="8.1.7.v20120910" rev-constraint-default="8.1.7.v20120910" rev-constraint-dynamic="8.1.7.v20120910" callerrev="8.1.7.v20120910"/>
 				<artifacts>
@@ -43,7 +43,7 @@
 			</revision>
 		</module>
 		<module organisation="org.eclipse.jetty" name="jetty-server">
-			<revision name="8.1.7.v20120910" status="release" pubdate="20120911040755" resolver="public" artresolver="public" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="36">
+			<revision name="8.1.7.v20120910" status="release" pubdate="20120911040755" resolver="public" artresolver="public" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="37">
 				<metadata-artifact status="no" details="" size="8908" time="0" location="C:\Users\yuki\.ivy2\cache\org.eclipse.jetty\jetty-server\ivy-8.1.7.v20120910.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/8.1.7.v20120910/jetty-server-8.1.7.v20120910.pom"/>
 				<caller organisation="org.eclipse.jetty" name="jetty-security" conf="compile, runtime" rev="8.1.7.v20120910" rev-constraint-default="8.1.7.v20120910" rev-constraint-dynamic="8.1.7.v20120910" callerrev="8.1.7.v20120910"/>
 				<artifacts>
@@ -54,7 +54,7 @@
 			</revision>
 		</module>
 		<module organisation="org.eclipse.jetty" name="jetty-http">
-			<revision name="8.1.7.v20120910" status="release" pubdate="20120911040402" resolver="public" artresolver="public" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="39">
+			<revision name="8.1.7.v20120910" status="release" pubdate="20120911040402" resolver="public" artresolver="public" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="40">
 				<metadata-artifact status="no" details="" size="8361" time="0" location="C:\Users\yuki\.ivy2\cache\org.eclipse.jetty\jetty-http\ivy-8.1.7.v20120910.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/8.1.7.v20120910/jetty-http-8.1.7.v20120910.pom"/>
 				<caller organisation="org.eclipse.jetty" name="jetty-server" conf="compile, runtime" rev="8.1.7.v20120910" rev-constraint-default="8.1.7.v20120910" rev-constraint-dynamic="8.1.7.v20120910" callerrev="8.1.7.v20120910"/>
 				<artifacts>
@@ -65,7 +65,7 @@
 			</revision>
 		</module>
 		<module organisation="org.eclipse.jetty" name="jetty-io">
-			<revision name="8.1.7.v20120910" status="release" pubdate="20120911040343" resolver="public" artresolver="public" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="40">
+			<revision name="8.1.7.v20120910" status="release" pubdate="20120911040343" resolver="public" artresolver="public" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="41">
 				<metadata-artifact status="no" details="" size="8223" time="0" location="C:\Users\yuki\.ivy2\cache\org.eclipse.jetty\jetty-io\ivy-8.1.7.v20120910.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/8.1.7.v20120910/jetty-io-8.1.7.v20120910.pom"/>
 				<caller organisation="org.eclipse.jetty" name="jetty-http" conf="compile, runtime" rev="8.1.7.v20120910" rev-constraint-default="8.1.7.v20120910" rev-constraint-dynamic="8.1.7.v20120910" callerrev="8.1.7.v20120910"/>
 				<artifacts>
@@ -76,7 +76,7 @@
 			</revision>
 		</module>
 		<module organisation="org.eclipse.jetty" name="jetty-continuation">
-			<revision name="8.1.7.v20120910" status="release" pubdate="20120911040419" resolver="public" artresolver="public" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="38">
+			<revision name="8.1.7.v20120910" status="release" pubdate="20120911040419" resolver="public" artresolver="public" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="39">
 				<metadata-artifact status="no" details="" size="8317" time="0" location="C:\Users\yuki\.ivy2\cache\org.eclipse.jetty\jetty-continuation\ivy-8.1.7.v20120910.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-continuation/8.1.7.v20120910/jetty-continuation-8.1.7.v20120910.pom"/>
 				<caller organisation="org.eclipse.jetty" name="jetty-server" conf="compile, runtime" rev="8.1.7.v20120910" rev-constraint-default="8.1.7.v20120910" rev-constraint-dynamic="8.1.7.v20120910" callerrev="8.1.7.v20120910"/>
 				<artifacts>
@@ -87,7 +87,7 @@
 			</revision>
 		</module>
 		<module organisation="org.eclipse.jetty" name="jetty-xml">
-			<revision name="8.1.7.v20120910" status="release" pubdate="20120911041248" resolver="public" artresolver="public" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="32">
+			<revision name="8.1.7.v20120910" status="release" pubdate="20120911041248" resolver="public" artresolver="public" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="33">
 				<metadata-artifact status="no" details="" size="8236" time="0" location="C:\Users\yuki\.ivy2\cache\org.eclipse.jetty\jetty-xml\ivy-8.1.7.v20120910.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-xml/8.1.7.v20120910/jetty-xml-8.1.7.v20120910.pom"/>
 				<caller organisation="org.eclipse.jetty" name="jetty-webapp" conf="default, compile, runtime, master" rev="8.1.7.v20120910" rev-constraint-default="8.1.7.v20120910" rev-constraint-dynamic="8.1.7.v20120910" callerrev="8.1.7.v20120910"/>
 				<artifacts>
@@ -98,7 +98,7 @@
 			</revision>
 		</module>
 		<module organisation="org.eclipse.jetty" name="jetty-util">
-			<revision name="8.1.7.v20120910" status="release" pubdate="20120911040238" resolver="public" artresolver="public" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="33">
+			<revision name="8.1.7.v20120910" status="release" pubdate="20120911040238" resolver="public" artresolver="public" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="34">
 				<metadata-artifact status="no" details="" size="8592" time="0" location="C:\Users\yuki\.ivy2\cache\org.eclipse.jetty\jetty-util\ivy-8.1.7.v20120910.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/8.1.7.v20120910/jetty-util-8.1.7.v20120910.pom"/>
 				<caller organisation="org.eclipse.jetty" name="jetty-xml" conf="compile, runtime" rev="8.1.7.v20120910" rev-constraint-default="8.1.7.v20120910" rev-constraint-dynamic="8.1.7.v20120910" callerrev="8.1.7.v20120910"/>
 				<caller organisation="org.eclipse.jetty" name="jetty-io" conf="compile, runtime" rev="8.1.7.v20120910" rev-constraint-default="8.1.7.v20120910" rev-constraint-dynamic="8.1.7.v20120910" callerrev="8.1.7.v20120910"/>
@@ -110,13 +110,26 @@
 			</revision>
 		</module>
 		<module organisation="org.eclipse.jetty.orbit" name="javax.servlet">
-			<revision name="3.0.0.v201112011016" status="release" pubdate="20111208044915" resolver="public" artresolver="public" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, master(*), runtime, compile(*), runtime(*), master" position="37">
+			<revision name="3.0.0.v201112011016" status="release" pubdate="20111208044915" resolver="public" artresolver="public" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, master(*), runtime, compile(*), runtime(*), master" position="38">
 				<metadata-artifact status="no" details="" size="3060" time="0" location="C:\Users\yuki\.ivy2\cache\org.eclipse.jetty.orbit\javax.servlet\ivy-3.0.0.v201112011016.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.pom"/>
 				<caller organisation="org.eclipse.jetty" name="jetty-server" conf="compile, runtime" rev="3.0.0.v201112011016" rev-constraint-default="3.0.0.v201112011016" rev-constraint-dynamic="3.0.0.v201112011016" callerrev="8.1.7.v20120910"/>
 				<caller organisation="net.liftweb" name="tagevernote_2.10" conf="test, compile, runtime" rev="3.0.0.v201112011016" rev-constraint-default="3.0.0.v201112011016" rev-constraint-dynamic="3.0.0.v201112011016" callerrev="0.0.1"/>
 				<artifacts>
 					<artifact name="javax.servlet" type="jar" ext="jar" status="no" details="" size="200387" time="0" location="C:\Users\yuki\.ivy2\cache\org.eclipse.jetty.orbit\javax.servlet\jars\javax.servlet-3.0.0.v201112011016.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.evernote" name="evernote-api">
+			<revision name="1.23" status="release" pubdate="20121212032623" resolver="releases" artresolver="releases" homepage="http://dev.evernote.com" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="31">
+				<license name="Evernote SDK License Agreement" url="https://github.com/evernote/evernote-sdk-java/blob/master/LICENSE"/>
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3118" time="0" location="C:\Users\yuki\.ivy2\cache\com.evernote\evernote-api\ivy-1.23.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/com/evernote/evernote-api/1.23/evernote-api-1.23.pom"/>
+				<caller organisation="net.liftweb" name="tagevernote_2.10" conf="test, compile, runtime" rev="1.23" rev-constraint-default="1.23" rev-constraint-dynamic="1.23" callerrev="0.0.1"/>
+				<artifacts>
+					<artifact name="evernote-api" type="jar" ext="jar" status="no" details="" size="790514" time="0" location="C:\Users\yuki\.ivy2\cache\com.evernote\evernote-api\jars\evernote-api-1.23.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/com/evernote/evernote-api/1.23/evernote-api-1.23.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>

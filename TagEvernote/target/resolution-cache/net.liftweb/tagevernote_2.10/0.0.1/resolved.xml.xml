@@ -4,7 +4,7 @@
 		module="tagevernote_2.10"
 		revision="0.0.1"
 		status="integration"
-		publication="20130202020605"
+		publication="20130202021424"
 	>
 		<description>
 		TagEvernote
@@ -43,6 +43,7 @@
 		<dependency org="ch.qos.logback" name="logback-classic" rev="1.0.6" conf="compile->default(compile)"/>
 		<dependency org="org.specs2" name="specs2_2.10" rev="1.12.1" conf="test->default(compile)"/>
 		<dependency org="com.h2database" name="h2" rev="1.3.167" conf="compile->default(compile)"/>
+		<dependency org="com.evernote" name="evernote-api" rev="1.23" conf="compile->default(compile)"/>
 		<exclude org="org.scala-lang" module="scala-library" artifact="*" type="jar" ext="*" matcher="exact"/>
 		<exclude org="org.scala-lang" module="scala-compiler" artifact="*" type="jar" ext="*" matcher="exact"/>
 		<override org="org.scala-lang" module="scala-library" matcher="exact" rev="2.10.0"/>

@@ -1,4 +1,4 @@
-[info] Updating {file:/C:/Users/yuki/workspace/TagEvernote/}default-97b58d...
+[info] Updating {file:/C:/Users/yuki/git/TagEvernote/TagEvernote/}default-f49669...
 [debug] post 1.3 ivy file: using exact as default matcher
 [debug] :: resolving dependencies :: net.liftweb#tagevernote_2.10;0.0.1
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, container]
@@ -1105,6 +1105,27 @@
 [debug] loadData of com.h2database#h2;1.3.167 of rootConf=compile
 [debug] == resolving dependencies net.liftweb#tagevernote_2.10;0.0.1->com.h2database#h2;1.3.167 [compile->master]
 [debug] loadData of com.h2database#h2;1.3.167 of rootConf=compile
+[debug] == resolving dependencies net.liftweb#tagevernote_2.10;0.0.1->com.evernote#evernote-api;1.23 [compile->default(compile)]
+[debug] loadData of com.evernote#evernote-api;1.23 of rootConf=compile
+[debug] 	using sbt-chain to resolve com.evernote#evernote-api;1.23
+[info] Resolving com.evernote#evernote-api;1.23 ...
+[debug] sbt-chain: Checking cache for: dependency: com.evernote#evernote-api;1.23 {compile=[default(compile)]}
+[debug] No entry is found in the ModuleDescriptorCache : C:\Users\yuki\.ivy2\cache\com.evernote\evernote-api\ivy-1.23.xml
+[debug] post 1.3 ivy file: using exact as default matcher
+[debug] 	found ivy file in cache for com.evernote#evernote-api;1.23 (resolved by releases): C:\Users\yuki\.ivy2\cache\com.evernote\evernote-api\ivy-1.23.xml
+[debug] sbt-chain: module revision found in cache: com.evernote#evernote-api;1.23
+[debug] Entry is found in the ModuleDescriptorCache : C:\Users\yuki\.ivy2\cache\com.evernote\evernote-api\ivy-1.23.xml
+[debug] 	found ivy file in cache for com.evernote#evernote-api;1.23 (resolved by releases): C:\Users\yuki\.ivy2\cache\com.evernote\evernote-api\ivy-1.23.xml
+[debug] 	local: revision in cache: com.evernote#evernote-api;1.23
+[debug] 	checking com.evernote#evernote-api;1.23 from releases against [none]
+[debug] 	module revision kept as first found: com.evernote#evernote-api;1.23 from releases
+[debug] 	found com.evernote#evernote-api;1.23 in releases
+[debug] == resolving dependencies net.liftweb#tagevernote_2.10;0.0.1->com.evernote#evernote-api;1.23 [compile->runtime]
+[debug] loadData of com.evernote#evernote-api;1.23 of rootConf=compile
+[debug] == resolving dependencies net.liftweb#tagevernote_2.10;0.0.1->com.evernote#evernote-api;1.23 [compile->compile]
+[debug] loadData of com.evernote#evernote-api;1.23 of rootConf=compile
+[debug] == resolving dependencies net.liftweb#tagevernote_2.10;0.0.1->com.evernote#evernote-api;1.23 [compile->master]
+[debug] loadData of com.evernote#evernote-api;1.23 of rootConf=compile
 [debug] resolving dependencies for configuration 'runtime'
 [debug] == resolving dependencies for net.liftweb#tagevernote_2.10;0.0.1 [runtime]
 [debug] loadData of net.liftweb#tagevernote_2.10;0.0.1 of rootConf=runtime
@@ -1855,6 +1876,17 @@
 [debug] runtime is loaded and no conf to load.  Skip loading
 [debug] == resolving dependencies net.liftweb#tagevernote_2.10;0.0.1->com.h2database#h2;1.3.167 [compile->master]
 [debug] loadData of com.h2database#h2;1.3.167 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#tagevernote_2.10;0.0.1->com.evernote#evernote-api;1.23 [compile->default(compile)]
+[debug] loadData of com.evernote#evernote-api;1.23 of rootConf=runtime
+[debug] == resolving dependencies net.liftweb#tagevernote_2.10;0.0.1->com.evernote#evernote-api;1.23 [compile->runtime]
+[debug] loadData of com.evernote#evernote-api;1.23 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#tagevernote_2.10;0.0.1->com.evernote#evernote-api;1.23 [compile->compile]
+[debug] loadData of com.evernote#evernote-api;1.23 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#tagevernote_2.10;0.0.1->com.evernote#evernote-api;1.23 [compile->master]
+[debug] loadData of com.evernote#evernote-api;1.23 of rootConf=runtime
 [debug] runtime is loaded and no conf to load.  Skip loading
 [debug] resolving dependencies for configuration 'test'
 [debug] == resolving dependencies for net.liftweb#tagevernote_2.10;0.0.1 [test]
@@ -2611,6 +2643,17 @@
 [debug] test is loaded and no conf to load.  Skip loading
 [debug] == resolving dependencies net.liftweb#tagevernote_2.10;0.0.1->com.h2database#h2;1.3.167 [compile->master]
 [debug] loadData of com.h2database#h2;1.3.167 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#tagevernote_2.10;0.0.1->com.evernote#evernote-api;1.23 [compile->default(compile)]
+[debug] loadData of com.evernote#evernote-api;1.23 of rootConf=test
+[debug] == resolving dependencies net.liftweb#tagevernote_2.10;0.0.1->com.evernote#evernote-api;1.23 [compile->runtime]
+[debug] loadData of com.evernote#evernote-api;1.23 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#tagevernote_2.10;0.0.1->com.evernote#evernote-api;1.23 [compile->compile]
+[debug] loadData of com.evernote#evernote-api;1.23 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#tagevernote_2.10;0.0.1->com.evernote#evernote-api;1.23 [compile->master]
+[debug] loadData of com.evernote#evernote-api;1.23 of rootConf=test
 [debug] test is loaded and no conf to load.  Skip loading
 [debug] == resolving dependencies net.liftweb#tagevernote_2.10;0.0.1->org.eclipse.jetty#jetty-webapp;8.1.7.v20120910 [test->default(compile)]
 [debug] loadData of org.eclipse.jetty#jetty-webapp;8.1.7.v20120910 of rootConf=test
@@ -3639,6 +3682,17 @@
 [debug] == resolving dependencies net.liftweb#tagevernote_2.10;0.0.1->com.h2database#h2;1.3.167 [compile->master]
 [debug] loadData of com.h2database#h2;1.3.167 of rootConf=compile-internal
 [debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#tagevernote_2.10;0.0.1->com.evernote#evernote-api;1.23 [compile->default(compile)]
+[debug] loadData of com.evernote#evernote-api;1.23 of rootConf=compile-internal
+[debug] == resolving dependencies net.liftweb#tagevernote_2.10;0.0.1->com.evernote#evernote-api;1.23 [compile->runtime]
+[debug] loadData of com.evernote#evernote-api;1.23 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#tagevernote_2.10;0.0.1->com.evernote#evernote-api;1.23 [compile->compile]
+[debug] loadData of com.evernote#evernote-api;1.23 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#tagevernote_2.10;0.0.1->com.evernote#evernote-api;1.23 [compile->master]
+[debug] loadData of com.evernote#evernote-api;1.23 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
 [debug] == resolving dependencies for net.liftweb#tagevernote_2.10;0.0.1 [optional]
 [debug] loadData of net.liftweb#tagevernote_2.10;0.0.1 of rootConf=compile-internal
 [debug] compile-internal is loaded and no conf to load.  Skip loading
@@ -4402,6 +4456,17 @@
 [debug] runtime-internal is loaded and no conf to load.  Skip loading
 [debug] == resolving dependencies net.liftweb#tagevernote_2.10;0.0.1->com.h2database#h2;1.3.167 [compile->master]
 [debug] loadData of com.h2database#h2;1.3.167 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#tagevernote_2.10;0.0.1->com.evernote#evernote-api;1.23 [compile->default(compile)]
+[debug] loadData of com.evernote#evernote-api;1.23 of rootConf=runtime-internal
+[debug] == resolving dependencies net.liftweb#tagevernote_2.10;0.0.1->com.evernote#evernote-api;1.23 [compile->runtime]
+[debug] loadData of com.evernote#evernote-api;1.23 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#tagevernote_2.10;0.0.1->com.evernote#evernote-api;1.23 [compile->compile]
+[debug] loadData of com.evernote#evernote-api;1.23 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#tagevernote_2.10;0.0.1->com.evernote#evernote-api;1.23 [compile->master]
+[debug] loadData of com.evernote#evernote-api;1.23 of rootConf=runtime-internal
 [debug] runtime-internal is loaded and no conf to load.  Skip loading
 [debug] == resolving dependencies for net.liftweb#tagevernote_2.10;0.0.1 [optional]
 [debug] loadData of net.liftweb#tagevernote_2.10;0.0.1 of rootConf=runtime-internal
@@ -5171,6 +5236,17 @@
 [debug] == resolving dependencies net.liftweb#tagevernote_2.10;0.0.1->com.h2database#h2;1.3.167 [compile->master]
 [debug] loadData of com.h2database#h2;1.3.167 of rootConf=test-internal
 [debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#tagevernote_2.10;0.0.1->com.evernote#evernote-api;1.23 [compile->default(compile)]
+[debug] loadData of com.evernote#evernote-api;1.23 of rootConf=test-internal
+[debug] == resolving dependencies net.liftweb#tagevernote_2.10;0.0.1->com.evernote#evernote-api;1.23 [compile->runtime]
+[debug] loadData of com.evernote#evernote-api;1.23 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#tagevernote_2.10;0.0.1->com.evernote#evernote-api;1.23 [compile->compile]
+[debug] loadData of com.evernote#evernote-api;1.23 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#tagevernote_2.10;0.0.1->com.evernote#evernote-api;1.23 [compile->master]
+[debug] loadData of com.evernote#evernote-api;1.23 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
 [debug] == resolving dependencies net.liftweb#tagevernote_2.10;0.0.1->org.eclipse.jetty#jetty-webapp;8.1.7.v20120910 [test->default(compile)]
 [debug] loadData of org.eclipse.jetty#jetty-webapp;8.1.7.v20120910 of rootConf=test-internal
 [debug] == resolving dependencies net.liftweb#tagevernote_2.10;0.0.1->org.eclipse.jetty#jetty-webapp;8.1.7.v20120910 [test->runtime]
@@ -5475,7 +5551,7 @@
 [debug] == resolving dependencies net.liftweb#tagevernote_2.10;0.0.1->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [container->master]
 [debug] loadData of org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 of rootConf=container
 [debug] container is loaded and no conf to load.  Skip loading
-[debug] Nbr of module to sort : 41
+[debug] Nbr of module to sort : 42
 [debug] Sort dependencies of : org.scala-lang#scala-library;2.10.0 / Number of dependencies = 0
 [debug] Sort done for : org.scala-lang#scala-library;2.10.0
 [debug] Sort dependencies of : net.liftweb#lift-webkit_2.10;2.5-M4 / Number of dependencies = 10
@@ -5583,6 +5659,8 @@
 [debug] Sort done for : ch.qos.logback#logback-classic;1.0.6
 [debug] Sort dependencies of : com.h2database#h2;1.3.167 / Number of dependencies = 0
 [debug] Sort done for : com.h2database#h2;1.3.167
+[debug] Sort dependencies of : com.evernote#evernote-api;1.23 / Number of dependencies = 0
+[debug] Sort done for : com.evernote#evernote-api;1.23
 [debug] Module descriptor is processed : net.liftweb#lift-util_2.10;2.5-M4
 [debug] Module descriptor is processed : org.specs2#specs2_2.10;1.12.3
 [debug] Module descriptor is processed : commons-fileupload#commons-fileupload;1.2.2
@@ -5654,7 +5732,7 @@
 [debug] org.scala-lang#scala-compiler;2.10.0 in runtime: excluding org.scala-lang#scala-compiler;2.10.0!scala-compiler.jar
 [debug] org.scala-lang#scala-compiler;2.10.0 in runtime-internal: excluding org.scala-lang#scala-compiler;2.10.0!scala-compiler.jar
 [debug] org.scala-lang#scala-compiler;2.10.0 in compile-internal: excluding org.scala-lang#scala-compiler;2.10.0!scala-compiler.jar
-[debug] 	resolved ivy file produced in C:\Users\yuki\workspace\TagEvernote\target\resolution-cache\net.liftweb\tagevernote_2.10\0.0.1\resolved.xml.xml
+[debug] 	resolved ivy file produced in C:\Users\yuki\git\TagEvernote\TagEvernote\target\resolution-cache\net.liftweb\tagevernote_2.10\0.0.1\resolved.xml.xml
 [debug] :: downloading artifacts ::
 [debug] org.scala-lang#scala-library;2.10.0 in test-internal: excluding org.scala-lang#scala-library;2.10.0!scala-library.jar
 [debug] org.scala-lang#scala-library;2.10.0 in test: excluding org.scala-lang#scala-library;2.10.0!scala-library.jar
@@ -5673,6 +5751,7 @@
 [debug] 	[NOT REQUIRED] net.liftmodules#lift-jquery-module_2.10;2.5-M4-2.1!lift-jquery-module_2.10.jar
 [debug] 	[NOT REQUIRED] ch.qos.logback#logback-classic;1.0.6!logback-classic.jar
 [debug] 	[NOT REQUIRED] com.h2database#h2;1.3.167!h2.jar
+[debug] 	[NOT REQUIRED] com.evernote#evernote-api;1.23!evernote-api.jar
 [debug] 	[NOT REQUIRED] net.liftweb#lift-util_2.10;2.5-M4!lift-util_2.10.jar
 [debug] 	[NOT REQUIRED] org.specs2#specs2_2.10;1.12.3!specs2_2.10.jar
 [debug] 	[NOT REQUIRED] commons-fileupload#commons-fileupload;1.2.2!commons-fileupload.jar
@@ -5719,8 +5798,8 @@
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-continuation;8.1.7.v20120910!jetty-continuation.jar
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-http;8.1.7.v20120910!jetty-http.jar
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-io;8.1.7.v20120910!jetty-io.jar
-[debug] :: resolution report :: resolve 1360ms :: artifacts dl 80ms
-[debug] Nbr of module to sort : 31
+[debug] :: resolution report :: resolve 1330ms :: artifacts dl 90ms
+[debug] Nbr of module to sort : 32
 [debug] Sort dependencies of : org.scala-lang#scala-library;2.10.0 / Number of dependencies = 0
 [debug] Sort done for : org.scala-lang#scala-library;2.10.0
 [debug] Sort dependencies of : net.liftweb#lift-webkit_2.10;2.5-M4 / Number of dependencies = 10
@@ -5853,8 +5932,10 @@
 [debug] Module descriptor is processed : ch.qos.logback#logback-core;1.0.6
 [debug] Sort dependencies of : com.h2database#h2;1.3.167 / Number of dependencies = 0
 [debug] Sort done for : com.h2database#h2;1.3.167
-[debug] 	report for net.liftweb#tagevernote_2.10;0.0.1 compile produced in C:\Users\yuki\workspace\TagEvernote\target\resolution-cache\reports\net.liftweb-tagevernote_2.10\compile-resolved.xml
-[debug] Nbr of module to sort : 31
+[debug] Sort dependencies of : com.evernote#evernote-api;1.23 / Number of dependencies = 0
+[debug] Sort done for : com.evernote#evernote-api;1.23
+[debug] 	report for net.liftweb#tagevernote_2.10;0.0.1 compile produced in C:\Users\yuki\git\TagEvernote\TagEvernote\target\resolution-cache\reports\net.liftweb-tagevernote_2.10\compile-resolved.xml
+[debug] Nbr of module to sort : 32
 [debug] Sort dependencies of : org.scala-lang#scala-library;2.10.0 / Number of dependencies = 0
 [debug] Sort done for : org.scala-lang#scala-library;2.10.0
 [debug] Sort dependencies of : net.liftweb#lift-webkit_2.10;2.5-M4 / Number of dependencies = 10
@@ -5987,8 +6068,10 @@
 [debug] Module descriptor is processed : ch.qos.logback#logback-core;1.0.6
 [debug] Sort dependencies of : com.h2database#h2;1.3.167 / Number of dependencies = 0
 [debug] Sort done for : com.h2database#h2;1.3.167
-[debug] 	report for net.liftweb#tagevernote_2.10;0.0.1 runtime produced in C:\Users\yuki\workspace\TagEvernote\target\resolution-cache\reports\net.liftweb-tagevernote_2.10\runtime-resolved.xml
-[debug] Nbr of module to sort : 41
+[debug] Sort dependencies of : com.evernote#evernote-api;1.23 / Number of dependencies = 0
+[debug] Sort done for : com.evernote#evernote-api;1.23
+[debug] 	report for net.liftweb#tagevernote_2.10;0.0.1 runtime produced in C:\Users\yuki\git\TagEvernote\TagEvernote\target\resolution-cache\reports\net.liftweb-tagevernote_2.10\runtime-resolved.xml
+[debug] Nbr of module to sort : 42
 [debug] Sort dependencies of : org.scala-lang#scala-library;2.10.0 / Number of dependencies = 0
 [debug] Sort done for : org.scala-lang#scala-library;2.10.0
 [debug] Sort dependencies of : net.liftweb#lift-webkit_2.10;2.5-M4 / Number of dependencies = 10
@@ -6121,6 +6204,8 @@
 [debug] Module descriptor is processed : ch.qos.logback#logback-core;1.0.6
 [debug] Sort dependencies of : com.h2database#h2;1.3.167 / Number of dependencies = 0
 [debug] Sort done for : com.h2database#h2;1.3.167
+[debug] Sort dependencies of : com.evernote#evernote-api;1.23 / Number of dependencies = 0
+[debug] Sort done for : com.evernote#evernote-api;1.23
 [debug] Sort dependencies of : org.eclipse.jetty#jetty-webapp;8.1.7.v20120910 / Number of dependencies = 4
 [debug] Sort dependencies of : org.eclipse.jetty#jetty-xml;8.1.7.v20120910 / Number of dependencies = 2
 [debug] Sort dependencies of : org.eclipse.jetty#jetty-util;8.1.7.v20120910 / Number of dependencies = 4
@@ -6155,12 +6240,12 @@
 [debug] Module descriptor is processed : org.eclipse.jetty#jetty-continuation;8.1.7.v20120910
 [debug] Module descriptor is processed : org.eclipse.jetty#jetty-http;8.1.7.v20120910
 [debug] Module descriptor is processed : org.eclipse.jetty#jetty-io;8.1.7.v20120910
-[debug] 	report for net.liftweb#tagevernote_2.10;0.0.1 test produced in C:\Users\yuki\workspace\TagEvernote\target\resolution-cache\reports\net.liftweb-tagevernote_2.10\test-resolved.xml
+[debug] 	report for net.liftweb#tagevernote_2.10;0.0.1 test produced in C:\Users\yuki\git\TagEvernote\TagEvernote\target\resolution-cache\reports\net.liftweb-tagevernote_2.10\test-resolved.xml
 [debug] Nbr of module to sort : 0
-[debug] 	report for net.liftweb#tagevernote_2.10;0.0.1 provided produced in C:\Users\yuki\workspace\TagEvernote\target\resolution-cache\reports\net.liftweb-tagevernote_2.10\provided-resolved.xml
+[debug] 	report for net.liftweb#tagevernote_2.10;0.0.1 provided produced in C:\Users\yuki\git\TagEvernote\TagEvernote\target\resolution-cache\reports\net.liftweb-tagevernote_2.10\provided-resolved.xml
 [debug] Nbr of module to sort : 0
-[debug] 	report for net.liftweb#tagevernote_2.10;0.0.1 optional produced in C:\Users\yuki\workspace\TagEvernote\target\resolution-cache\reports\net.liftweb-tagevernote_2.10\optional-resolved.xml
-[debug] Nbr of module to sort : 31
+[debug] 	report for net.liftweb#tagevernote_2.10;0.0.1 optional produced in C:\Users\yuki\git\TagEvernote\TagEvernote\target\resolution-cache\reports\net.liftweb-tagevernote_2.10\optional-resolved.xml
+[debug] Nbr of module to sort : 32
 [debug] Sort dependencies of : org.scala-lang#scala-library;2.10.0 / Number of dependencies = 0
 [debug] Sort done for : org.scala-lang#scala-library;2.10.0
 [debug] Sort dependencies of : net.liftweb#lift-webkit_2.10;2.5-M4 / Number of dependencies = 10
@@ -6293,8 +6378,10 @@
 [debug] Module descriptor is processed : ch.qos.logback#logback-core;1.0.6
 [debug] Sort dependencies of : com.h2database#h2;1.3.167 / Number of dependencies = 0
 [debug] Sort done for : com.h2database#h2;1.3.167
-[debug] 	report for net.liftweb#tagevernote_2.10;0.0.1 compile-internal produced in C:\Users\yuki\workspace\TagEvernote\target\resolution-cache\reports\net.liftweb-tagevernote_2.10\compile-internal-resolved.xml
-[debug] Nbr of module to sort : 31
+[debug] Sort dependencies of : com.evernote#evernote-api;1.23 / Number of dependencies = 0
+[debug] Sort done for : com.evernote#evernote-api;1.23
+[debug] 	report for net.liftweb#tagevernote_2.10;0.0.1 compile-internal produced in C:\Users\yuki\git\TagEvernote\TagEvernote\target\resolution-cache\reports\net.liftweb-tagevernote_2.10\compile-internal-resolved.xml
+[debug] Nbr of module to sort : 32
 [debug] Sort dependencies of : org.scala-lang#scala-library;2.10.0 / Number of dependencies = 0
 [debug] Sort done for : org.scala-lang#scala-library;2.10.0
 [debug] Sort dependencies of : net.liftweb#lift-webkit_2.10;2.5-M4 / Number of dependencies = 10
@@ -6427,8 +6514,10 @@
 [debug] Module descriptor is processed : ch.qos.logback#logback-core;1.0.6
 [debug] Sort dependencies of : com.h2database#h2;1.3.167 / Number of dependencies = 0
 [debug] Sort done for : com.h2database#h2;1.3.167
-[debug] 	report for net.liftweb#tagevernote_2.10;0.0.1 runtime-internal produced in C:\Users\yuki\workspace\TagEvernote\target\resolution-cache\reports\net.liftweb-tagevernote_2.10\runtime-internal-resolved.xml
-[debug] Nbr of module to sort : 41
+[debug] Sort dependencies of : com.evernote#evernote-api;1.23 / Number of dependencies = 0
+[debug] Sort done for : com.evernote#evernote-api;1.23
+[debug] 	report for net.liftweb#tagevernote_2.10;0.0.1 runtime-internal produced in C:\Users\yuki\git\TagEvernote\TagEvernote\target\resolution-cache\reports\net.liftweb-tagevernote_2.10\runtime-internal-resolved.xml
+[debug] Nbr of module to sort : 42
 [debug] Sort dependencies of : org.scala-lang#scala-library;2.10.0 / Number of dependencies = 0
 [debug] Sort done for : org.scala-lang#scala-library;2.10.0
 [debug] Sort dependencies of : net.liftweb#lift-webkit_2.10;2.5-M4 / Number of dependencies = 10
@@ -6561,6 +6650,8 @@
 [debug] Module descriptor is processed : ch.qos.logback#logback-core;1.0.6
 [debug] Sort dependencies of : com.h2database#h2;1.3.167 / Number of dependencies = 0
 [debug] Sort done for : com.h2database#h2;1.3.167
+[debug] Sort dependencies of : com.evernote#evernote-api;1.23 / Number of dependencies = 0
+[debug] Sort done for : com.evernote#evernote-api;1.23
 [debug] Sort dependencies of : org.eclipse.jetty#jetty-webapp;8.1.7.v20120910 / Number of dependencies = 4
 [debug] Sort dependencies of : org.eclipse.jetty#jetty-xml;8.1.7.v20120910 / Number of dependencies = 2
 [debug] Sort dependencies of : org.eclipse.jetty#jetty-util;8.1.7.v20120910 / Number of dependencies = 4
@@ -6595,15 +6686,15 @@
 [debug] Module descriptor is processed : org.eclipse.jetty#jetty-continuation;8.1.7.v20120910
 [debug] Module descriptor is processed : org.eclipse.jetty#jetty-http;8.1.7.v20120910
 [debug] Module descriptor is processed : org.eclipse.jetty#jetty-io;8.1.7.v20120910
-[debug] 	report for net.liftweb#tagevernote_2.10;0.0.1 test-internal produced in C:\Users\yuki\workspace\TagEvernote\target\resolution-cache\reports\net.liftweb-tagevernote_2.10\test-internal-resolved.xml
+[debug] 	report for net.liftweb#tagevernote_2.10;0.0.1 test-internal produced in C:\Users\yuki\git\TagEvernote\TagEvernote\target\resolution-cache\reports\net.liftweb-tagevernote_2.10\test-internal-resolved.xml
 [debug] Nbr of module to sort : 0
-[debug] 	report for net.liftweb#tagevernote_2.10;0.0.1 plugin produced in C:\Users\yuki\workspace\TagEvernote\target\resolution-cache\reports\net.liftweb-tagevernote_2.10\plugin-resolved.xml
+[debug] 	report for net.liftweb#tagevernote_2.10;0.0.1 plugin produced in C:\Users\yuki\git\TagEvernote\TagEvernote\target\resolution-cache\reports\net.liftweb-tagevernote_2.10\plugin-resolved.xml
 [debug] Nbr of module to sort : 0
-[debug] 	report for net.liftweb#tagevernote_2.10;0.0.1 sources produced in C:\Users\yuki\workspace\TagEvernote\target\resolution-cache\reports\net.liftweb-tagevernote_2.10\sources-resolved.xml
+[debug] 	report for net.liftweb#tagevernote_2.10;0.0.1 sources produced in C:\Users\yuki\git\TagEvernote\TagEvernote\target\resolution-cache\reports\net.liftweb-tagevernote_2.10\sources-resolved.xml
 [debug] Nbr of module to sort : 0
-[debug] 	report for net.liftweb#tagevernote_2.10;0.0.1 docs produced in C:\Users\yuki\workspace\TagEvernote\target\resolution-cache\reports\net.liftweb-tagevernote_2.10\docs-resolved.xml
+[debug] 	report for net.liftweb#tagevernote_2.10;0.0.1 docs produced in C:\Users\yuki\git\TagEvernote\TagEvernote\target\resolution-cache\reports\net.liftweb-tagevernote_2.10\docs-resolved.xml
 [debug] Nbr of module to sort : 0
-[debug] 	report for net.liftweb#tagevernote_2.10;0.0.1 pom produced in C:\Users\yuki\workspace\TagEvernote\target\resolution-cache\reports\net.liftweb-tagevernote_2.10\pom-resolved.xml
+[debug] 	report for net.liftweb#tagevernote_2.10;0.0.1 pom produced in C:\Users\yuki\git\TagEvernote\TagEvernote\target\resolution-cache\reports\net.liftweb-tagevernote_2.10\pom-resolved.xml
 [debug] Nbr of module to sort : 10
 [debug] Sort dependencies of : org.eclipse.jetty#jetty-webapp;8.1.7.v20120910 / Number of dependencies = 4
 [debug] Sort dependencies of : org.eclipse.jetty#jetty-xml;8.1.7.v20120910 / Number of dependencies = 2
@@ -6638,6 +6729,6 @@
 [debug] Module descriptor is processed : org.eclipse.jetty#jetty-continuation;8.1.7.v20120910
 [debug] Module descriptor is processed : org.eclipse.jetty#jetty-http;8.1.7.v20120910
 [debug] Module descriptor is processed : org.eclipse.jetty#jetty-io;8.1.7.v20120910
-[debug] 	report for net.liftweb#tagevernote_2.10;0.0.1 container produced in C:\Users\yuki\workspace\TagEvernote\target\resolution-cache\reports\net.liftweb-tagevernote_2.10\container-resolved.xml
-[debug] 	resolve done (1360ms resolve - 80ms download)
+[debug] 	report for net.liftweb#tagevernote_2.10;0.0.1 container produced in C:\Users\yuki\git\TagEvernote\TagEvernote\target\resolution-cache\reports\net.liftweb-tagevernote_2.10\container-resolved.xml
+[debug] 	resolve done (1330ms resolve - 90ms download)
 [info] Done updating.
